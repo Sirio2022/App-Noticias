@@ -11,6 +11,6 @@
 <h1>Tecnologias usadas:</h1>
 <p><strong>React:</strong> 18.2.0</p>
 <p><strong>react-dom:</strong> 18.2.0</p>
-<p><strong>MUI:</strong> 5.11.14</p>
+<p><strong>Material UI:</strong> 5.11.14</p>
 
 <h2>Context-API</h2>
