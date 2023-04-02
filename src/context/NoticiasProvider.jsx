@@ -25,7 +25,7 @@ const NoticiasProvider = ({ children }) => {
 
   useEffect(() => {
     const consultarAPI = async () => {
-      const url = `https://newsapi.org/v2/top-headlines?country=us&page${pagina}&category=${categoria}&apiKey=${
+      const url = `https://newsapi.org/v2/top-headlines?country=us&page=${pagina}&category=${categoria}&apiKey=${
         import.meta.env.VITE_API_KEY
       }`;
       const { data } = await axios.get(url);
