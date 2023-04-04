@@ -10,7 +10,7 @@ export default function Noticia({ noticia }) {
   const { urlToImage, url, title, description, source } = noticia;
 
   return (
-    <Grid item md={6} lg={4}>
+    <Grid item md={6} lg={4} xl={2}>
       <Card sx={{ height: '100%' }}>
         {urlToImage && (
           <CardMedia
