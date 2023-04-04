@@ -11,7 +11,7 @@ export default function Noticia({ noticia }) {
 
   return (
     <Grid item md={6} lg={4}>
-      <Card>
+      <Card sx={{ height: '100%' }}>
         {urlToImage && (
           <CardMedia
             component={'img'}
